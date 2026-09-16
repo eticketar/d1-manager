@@ -1,0 +1,18 @@
+name = "d1-manager"
+pages_build_output_dir = ".svelte-kit/cloudflare"
+
+# ==========================================
+# 1. ENTORNO DE PRODUCCIÓN
+# ==========================================
+[[d1_databases]]
+binding = "DB"
+database_name = "eticketar_produsers_db"
+database_id = "c089d0df-70b1-4f10-a83a-c2598869c345"
+
+# ==========================================
+# 2. ENTORNO DE TESTING
+# ==========================================
+[[d1_databases]]
+binding = "DB_TEST"
+database_name = "eticketar-test"
+database_id = "8cbc5289-0a63-4853-ac45-247ed943fa06"
